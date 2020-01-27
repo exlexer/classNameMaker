@@ -1,5 +1,5 @@
 {
-  "name": "classmaker",
+  "name": "classnamemaker",
   "version": "1.0.0",
   "description": "dependency free BEM class maker utility",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exlexer/classMaker.git"
+    "url": "git+https://github.com/exlexer/classNameMaker.git"
   },
   "author": "kylehilton92@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/exlexer/classMaker/issues"
+    "url": "https://github.com/exlexer/classNameMaker/issues"
   },
-  "homepage": "https://github.com/exlexer/classMaker#readme",
+  "homepage": "https://github.com/exlexer/classNameMaker#readme",
   "devDependencies": {
     "mocha": "^7.0.1"
   }

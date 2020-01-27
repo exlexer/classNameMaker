@@ -1,9 +1,9 @@
-# Class Maker
-`classMaker` is a dependency free utility for creation of basic BEM classnames and the overwriting of them in divergent usage cases.
+# Class Name Maker
+`classnamemaker` is a dependency free utility for creation of basic BEM classnames and the overwriting of them in divergent usage cases.
 
 ### API
 
-`classMaker` (`block`: `String`, `className`: `String`): `Function` => `ClassNameHandler`;
+`classNameMaker` (`block`: `String`, `className`: `String`): `Function` => `ClassNameHandler`;
 
 `ClassNameHandler` (`element`: `String`, `modifiers`: { ...`modifiers`: `Boolean` }, ...`additional classes`: `String`): `String` => `ClassString`;
 
@@ -12,10 +12,10 @@
 Let's build a basic component with a container an inner icon and a content element and some random modifiers.
 
 ```jsx
-import classMaker from '@numetric/web/src/apps/shared/utils/classMaker';
+import classNameMaker from 'classnamemaker';
 
 const BasicComponent = ({ children, className, tall = true, green = false }) => {
-  const _getClasses = classMaker('basic-component', className);
+  const _getClasses = classNameMaker('basic-component', className);
   const [active, setActive] = useState();
 
   return (

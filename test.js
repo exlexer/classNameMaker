@@ -1,9 +1,9 @@
 const assert = require('assert');
 
-const classMaker = require('./index');
+const classNameMaker = require('./index');
 
 const getClasses = () => {
-  const _getClasses = classMaker('default_block', 'given_block');
+  const _getClasses = classNameMaker('default_block', 'given_block');
   return _getClasses('section', { modified: true, 'not_modified': false }, 'added');
 }
 
