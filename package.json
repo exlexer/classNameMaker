@@ -1,0 +1,22 @@
+{
+  "name": "classmaker",
+  "version": "1.0.0",
+  "description": "dependency free BEM class maker utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exlexer/classMaker.git"
+  },
+  "author": "kylehilton92@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exlexer/classMaker/issues"
+  },
+  "homepage": "https://github.com/exlexer/classMaker#readme",
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  }
+}
