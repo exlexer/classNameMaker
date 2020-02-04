@@ -1,6 +1,6 @@
 module.exports = (block = '', className = '') => (
   element,
-  modifiers,
+  modifiers = {},
   ...additionalClasses
 ) => {
   const _element = element ? `__${element}` : '';

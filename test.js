@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const classNameMaker = require('./index');
+const classNameMaker = require('./classnamemaker');
 
 const getClasses = () => {
   const _getClasses = classNameMaker('default_block', 'given_block');
