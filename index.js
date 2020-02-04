@@ -1,4 +1,4 @@
-module.exports = (block, className) => (
+module.exports = (block = '', className = '') => (
   element,
   modifiers,
   ...additionalClasses
