@@ -38,7 +38,7 @@ If This were instantiated as follows:
 
 It would render as:
 ```jsx
-<div class="basic-component__container--tall">
+<div class="basic-component__container basic-component__container--tall">
   <div class="basic-component">
     <div class="basic-component__icon icon-check">
     <div class="basic-component__content">
