@@ -22,7 +22,7 @@ module.exports = (block = '', className = '') => (
     
         return acc;
       },
-      [],
+      []
     ),
     ..._classNames.map(_className => `${_className}${_element}`),
     ...additionalClasses
