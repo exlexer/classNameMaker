@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "dependency free BEM class maker utility",
   "main": "classnamemaker.js",
+  "types": "main.d.ts",
   "scripts": {
     "test": "mocha"
   },
