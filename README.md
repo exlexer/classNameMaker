@@ -31,7 +31,7 @@ const BasicComponent = ({ children, className, tall = true, green = false }) => 
 }
 ```
 
-If This were instantiated as follows:
+If this were instantiated as follows:
 ```jsx
 <BasicComponent>Test Text</BasicComponent>
 ```
