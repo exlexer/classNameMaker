@@ -1,6 +1,6 @@
 {
   "name": "classnamemaker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "dependency free BEM class maker utility",
   "main": "classnamemaker.js",
   "types": "main.d.ts",
