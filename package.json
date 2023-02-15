@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/exlexer/classNameMaker#readme",
   "devDependencies": {
-    "mocha": "^9.1.2"
+    "mocha": "^10.2.0"
   }
 }
